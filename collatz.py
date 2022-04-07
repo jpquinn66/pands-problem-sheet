@@ -1,6 +1,8 @@
 ## a program to output values based on collatz conjecture
 ##Author John Quinn (G00411303)
 
+## code help from https://www.webucator.com/article/collatz-conjecture-in-python/
+
 print ('Please enter a number:')
 a = input()
 a = int(a)
@@ -14,7 +16,6 @@ while a!= 1:
         a=(a*3)+1
         numList.append(a)
 
-print(numList)
 
     
 
